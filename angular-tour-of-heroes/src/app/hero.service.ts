@@ -14,19 +14,9 @@ export class HeroService {
 
 
 
-  //constructor() { }
   constructor(private messageService: MessageService) { }
 
 
-
-  //getHeroes(): Hero[] {
-  //  return HEROES;
-  //}
-
-  //getHeroes(): Observable<Hero[]> {
-  //  const heroes = of(HEROES);
-  //  return heroes;
-  //}
 
   getHeroes(): Observable<Hero[]> {
     const heroes = of(HEROES);
